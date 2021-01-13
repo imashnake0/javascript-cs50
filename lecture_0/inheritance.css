@@ -1,0 +1,17 @@
+.success, .failed {
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: aquamarine; }
+
+.failed {
+  background-color: #ff4f4f; }
+
+body {
+  background-color: #222222; }
+
+/*# sourceMappingURL=inheritance.css.map */

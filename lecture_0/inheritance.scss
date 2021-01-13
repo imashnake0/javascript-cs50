@@ -1,0 +1,21 @@
+%message{
+    font-family:'Segoe UI';
+    font-size: 15px;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success{
+    @extend %message;
+    background-color: aquamarine;
+}
+
+.failed{
+    @extend %message;
+    background-color: #ff4f4f;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
